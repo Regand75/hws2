@@ -20,21 +20,21 @@
     background-color: #F5F7FB;
     color: #000000;
     padding: 8px 13px;
-    /*box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1), 0 5px 20px 0 rgba(29, 33, 38, 0.03);*/
+    filter:
+            drop-shadow(0 1px 2px rgba(29, 33, 38, 0.1))
+            drop-shadow(0 5px 20px rgba(29, 33, 38, 0.03));
     border-radius: 10px 10px 10px 0;
 }
 
 .friendText:before {
     content: "";
     position: absolute;
-    left: -12px;
+    right: 100%;
     bottom: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 15px solid #F5F7FB;
-    border-left: 15px solid transparent;
-    /*filter: drop-shadow(0 1px 2px rgba(29, 33, 38, 0.1))*/
-    /*drop-shadow(0 5px 20px rgba(29, 33, 38, 0.03));*/
+    width: 15px;
+    height: 15px;
+    background-color: #F5F7FB;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 }
 
 .friendName {
