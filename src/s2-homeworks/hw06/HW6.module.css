@@ -1,5 +1,24 @@
 .buttonsContainer {
+    padding-bottom: 230px;
+    display: flex;
+    gap: 24px;
 }
 
 .editableSpanContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px 0 20px;
+
+    input {
+        /*border: none;*/
+        /*padding: 8px 24px;*/
+        /*max-width: 276px;*/
+        /*font-family: 'Montserrat', sans-serif;*/
+        /*font-style: normal;*/
+        /*font-weight: 500;*/
+        /*font-size: 16px;*/
+        /*color: #000000;*/
+
+    }
 }
