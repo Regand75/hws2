@@ -1,5 +1,4 @@
 .buttonsContainer {
-    padding-bottom: 230px;
     display: flex;
     gap: 24px;
 }
@@ -8,7 +7,7 @@
     display: flex;
     align-items: flex-start;
     gap: 20px;
-    padding: 30px 0 20px;
+    padding-bottom: 20px;
 
     input {
         /*border: none;*/
