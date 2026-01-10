@@ -1,8 +1,21 @@
 .container {
+    padding-top: 52px;
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.wrapper:not(:last-child) {
+    margin-bottom: 48px;
 }
 
 .number {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
 }
